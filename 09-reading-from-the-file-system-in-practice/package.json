@@ -9,5 +9,8 @@
   "keywords": [],
   "author": "Kevin Cunningham",
   "license": "MIT",
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "inquirer": "^9.0.0"
+  }
 }
