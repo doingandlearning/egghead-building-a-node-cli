@@ -5,7 +5,7 @@
 // const rl = readline.createInterface({
 //   terminal: true,
 //   input: process.stdin,
-//   output: process.stdin,
+//   output: process.stdout,
 // });
 
 // console.log("What is your name?");
@@ -28,7 +28,7 @@ import readline from "node:readline/promises";
 const rl = readline.createInterface({
   terminal: true,
   input: process.stdin,
-  output: process.stdin,
+  output: process.stdout,
 });
 
 const answer = await rl.question("What is your name?");
